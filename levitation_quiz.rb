@@ -1,7 +1,10 @@
 
 def levitation_quiz
    loop do
-     answer = "Wingardium Leviosa"
+     answer = get.chomp
+     break if answer = "Wingardium Leviosa"
+   end
+   puts "You passed the quiz!"
 end
 
 
